@@ -25,15 +25,16 @@ console.log("%cAmigo", "color: red; font-size:100px");
 // console.log("sad 'dada' \\");
 /************************ */
 //concatenation
-let a="Amigo";
-let b="Man";
+// let a="Amigo";
+// let b="Man";
 // document.writeln(a + " " +b);
 /********************* */
 //etma
-console.log(`${a} "" '' / \\`);
+// console.log(`${a} "" '' / \\`);
 //عشان تعملها دوس حرف الذال
 /************* */
 //markup
+/*
 let Title="AMigo"
 let markup=`
 <div class='card'>
@@ -44,3 +45,34 @@ let markup=`
 </div>
 </div>`
 document.writeln(markup);
+*/
+/**************** */
+//challenge
+// var Title="Elzero",Description='ELzzero web school',Datecontent="25/10";
+// let markup=`
+// <div class='card'>
+// <div class='child'>
+// <h1>${Title}</h1>
+// <p>${Description}</p>
+// <Date>${Datecontent}</Date>
+
+// </div>
+// </div>
+// `;
+
+// document.writeln(markup.repeat(4));
+/******** */
+//exponential
+console.log(2**3);
+/**************** */
+//unary plus return number even if it is not number
+// console.log(+"222");
+// console.log(+"www");
+// console.log(-"222");
+// console.log(+"");
+/*********** */
+let a=10;
+console.log(a);
+a+=20;
+console.log(a);
+;
