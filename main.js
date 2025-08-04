@@ -63,7 +63,7 @@ document.writeln(markup);
 // document.writeln(markup.repeat(4));
 /******** */
 //exponential
-console.log(2**3);
+// console.log(2**3);
 /**************** */
 //unary plus return number even if it is not number
 // console.log(+"222");
@@ -71,8 +71,64 @@ console.log(2**3);
 // console.log(-"222");
 // console.log(+"");
 /*********** */
-let a=10;
-console.log(a);
-a+=20;
-console.log(a);
-;
+// let a=10;
+// console.log(a);
+// a+=20;
+// console.log(a);
+// ;
+//challenge 2]
+// let d="-100";
+// let e="20";
+// let f=30;
+// let g=true;
+// console.log(-d * e);
+// console.log(++e * ++g + ++f + -d);
+
+/******* ***************************/
+//Number
+// console.log(1_000_000);
+// console.log(1e6);
+// console.log(10**6);
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(Number.MAX_VALUE);
+/******************************* */
+//number methods
+// console.log(100..toString());
+// console.log(100.5555.toFixed(2));
+// console.log(parseInt("100.333"));
+// console.log(parseFloat("100.332"));
+/*********************************** */
+//Math
+// console.log(Math.round(99.3));
+// console.log(Math.ceil(99.6));
+// console.log(Math.floor(89.2));
+// let rr=[];
+// console.log(Math.min(10,20,30,423,300,600));
+// console.log(Math.max(10,20,30,423,300,600));
+// //trunc بيشيل الكسور
+// console.log(Math.trunc(99.4));
+
+/************************************************** */
+//challenge 26 video
+// let a=1_00,b=2_00.5,c=1e2,d=2.4;
+// console.log(Math.trunc(Math.min(a,b,c,d)));
+/***************************************************** */
+//video 27 strings
+// let a=" Amigo "
+// console.log(a.charAt(0));
+// console.log(a[4]);
+
+// console.log(a.length);
+// console.log(a.trim());
+
+// console.log(a.toUpperCase());
+// console.log(  a.trim().charAt(2).toUpperCase());
+/**************************************************** */
+//video 28 strings p2
+let a="Amigo Man";
+console.log(a.indexOf("Man"));
+
+
+
+
+
