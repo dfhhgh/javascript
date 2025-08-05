@@ -125,8 +125,37 @@ document.writeln(markup);
 // console.log(  a.trim().charAt(2).toUpperCase());
 /**************************************************** */
 //video 28 strings p2
-let a="Amigo Man";
-console.log(a.indexOf("Man"));
+// let a="Amigo Man";
+// console.log(a.indexOf("Man",7));
+// console.log(a.lastIndexOf("Man"));
+// //slice start end
+// console.log(a.slice(1,4)
+// );
+// console.log(a.slice(-6));
+// //<= 
+// console.log(a.slice(-5.-3));
+// //split
+// console.log(a.split(" "));
+// //يعني قصقص علي حسب المسافة
+/************************************************ *********/
+//video 29 strings p3g(7
+// let a="AMigo Man OX";
+
+// console.log(a.substring(7,3));
+
+// console.log(a.substring(-6));
+// console.log(a.substring(-7,1));
+// //substr
+// //include
+// console.log(a.includes("OX"));
+// //endsWith lenght not index
+// console.log(a.endsWith("X"));
+// //challenge
+// console.log(a.charAt(0).toLowerCase() + a.substring(1,a.length-1).toUpperCase() + a.charAt(a.length-1).toLowerCase() );
+// console.log();
+/************************************************************************************************************************************ */
+//comparisions
+
 
 
 
