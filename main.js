@@ -155,6 +155,27 @@ document.writeln(markup);
 // console.log();
 /************************************************************************************************************************************ */
 //comparisions
+// == بنقارن الvalue بس مش نو ع البيانات
+// console.log(10!="10");
+// console.log(100=="100");
+// //=== identical بيقارن القيمة ونوع البيانات
+// //!== not identical 
+// console.log(10!=="10");
+//ternary operator
+let Name="Ahmed";
+let Gender="Male";
+let age=22;
+if (Gender=="Male") 
+    {
+        console.log("MR")
+    
+}
+else{
+   console.log("MS") ;
+
+}
+let result=Gender==="Male"?"Mr":"MS";
+console.log(`Hello ${Gender==="Male"?"Mr":"MS"} Ahmed`);
 
 
 
