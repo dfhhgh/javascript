@@ -218,3 +218,22 @@ document.writeln(markup);
 // console.log(myfirends.length);
 // myfirends[4]="Gamal";
 // console.log(myfirends.length);
+//42 video
+// let myfirends=["Amir","Mohamed","Hassan"];
+// myfirends.unshift("Yugi","Yoo");
+// //اضافة عناصر في بداية المصفوفة
+// console.log(myfirends);
+// //اضافة عناصر في نهاية المصفوفة
+// myfirends.push("Amigo");
+// console.log(myfirends);
+// myfirends.shift();//remove first element
+// console.log(myfirends);
+// myfirends.pop();
+// console.log(myfirends);
+//find index
+// let myfirends=["Amir","Mohamed","Hassan"];
+// console.log(myfirends.indexOf("Mohamed"));
+//if not found returns -1
+//sorting
+
+
