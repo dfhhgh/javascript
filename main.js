@@ -162,23 +162,59 @@ document.writeln(markup);
 // //!== not identical 
 // console.log(10!=="10");
 //ternary operator
-let Name="Ahmed";
-let Gender="Male";
-let age=22;
-if (Gender=="Male") 
-    {
-        console.log("MR")
+// let Name="Ahmed";
+// let Gender="Male";
+// let age=22;
+// if (Gender=="Male") 
+//     {
+//         console.log("MR")
     
-}
-else{
-   console.log("MS") ;
+// }
+// else{
+//    console.log("MS") ;
 
-}
-let result=Gender==="Male"?"Mr":"MS";
-console.log(`Hello ${Gender==="Male"?"Mr":"MS"} Ahmed`);
+// }
+// let result=Gender==="Male"?"Mr":"MS";
+// console.log(`Hello ${Gender==="Male"?"Mr":"MS"} ${Name}`);
+/***************************************************************** */
+//36 video
+//nullish operator ??
+//if challenge
+// let ss="Elzero Web School";
+// if (ss.includes("w")) {
+//     console.log("Good");
+    
+// }
+//37
+//switch
+// let date=22;
+// switch (date) {
+//     case 22:
+//         console.log("Monday");
+        
+//         break;
 
+//     default:
+//         console.log("unknown")
+//         break;
+// }
+//array
+// let friends=["Amir","Mohamed","Hassan"];
+// console.log(friends[0]);
+// //طب لو عايز اوصل لجرف معين فعنصر من العناصر
+// console.log(friends[0][1]);
+// //nested array
+// let myfirends=["Amir","Mohamed","Hassan",["Mohamed","Yami"]];
 
-
-
-
-
+// console.log(myfirends[3][1]);
+// //طب لو عايز حرف معين
+// console.log(myfirends[3][1][0]);
+// //editing
+// myfirends[3]="Omran";
+// console.log(myfirends);
+// console.log(myfirends);
+//lenght
+// let myfirends=["Amir","Mohamed","Hassan"];
+// console.log(myfirends.length);
+// myfirends[4]="Gamal";
+// console.log(myfirends.length);
