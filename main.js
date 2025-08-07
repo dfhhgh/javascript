@@ -235,5 +235,23 @@ document.writeln(markup);
 // console.log(myfirends.indexOf("Mohamed"));
 //if not found returns -1
 //sorting
-
-
+// let myfirends=["Amir","Mohamed","Hassan",12,22,30];
+// console.log(myfirends.sort());
+// console.log(myfirends.reverse());
+//slicing
+let myfirends=["Amir","Mohamed","Hassan","Samer"];
+// console.log(myfirends.slice(1,5));
+//slice => create a new array
+//splice تحذف او تضيف
+//start,number deleted elements,the new elements 
+// myfirends.splice(0,0,"Sameer");
+// console.log(myfirends);
+// myfirends.splice(0,1);
+// console.log(myfirends);
+//46 video
+//joining array
+// let newfriends=["Hesham","Hussien","Shady"];
+// let allfriends=myfirends.concat(newfriends,"Gamal","Osama");
+// console.log(allfriends);
+// //join
+// console.log(allfriends.join(" @ "));
