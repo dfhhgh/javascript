@@ -269,3 +269,33 @@ let myfirends=[1,2,"Amir","Mohamed","Hassan","Samer"];
     
 // }
 // console.log(names);
+//label
+let products=["keyboard","Mouse","Pen","Monitor","Headphone"];
+let color=["RED","GREEN","Blue"];
+// Mainloop:for (let index = 0; index < products.length; index++) {
+//    console.log(products[index]);
+//    nestedloop:for (let j = 0; j < color.length; j++) {
+//     console.log(color[j]);
+//     if (color[j]=="GREEN") {
+//         break Mainloop;
+//     }
+    
+//    }
+   
+    
+// }
+//video 53
+// let showcount=4;
+// document.writeln(`<h1>show ${showcount} products </h1>`);
+// for (let index = 0; index < showcount; index++) {
+//     document.writeln(`<div>`);
+
+//    document.writeln(`<h3> ${index+1}.${products[index]}</h3>`);
+//    for (let j = 0; j < color.length; j++) {
+// document.writeln(`<p>${color[j]}</p>`)
+    
+//    }
+//    document.writeln(`</div>`);
+// }
+//55 video
+//do while
