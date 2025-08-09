@@ -239,7 +239,7 @@ document.writeln(markup);
 // console.log(myfirends.sort());
 // console.log(myfirends.reverse());
 //slicing
-let myfirends=["Amir","Mohamed","Hassan","Samer"];
+let myfirends=[1,2,"Amir","Mohamed","Hassan","Samer"];
 // console.log(myfirends.slice(1,5));
 //slice => create a new array
 //splice تحذف او تضيف
@@ -255,3 +255,17 @@ let myfirends=["Amir","Mohamed","Hassan","Samer"];
 // console.log(allfriends);
 // //join
 // console.log(allfriends.join(" @ "));
+//loops
+// for (let index = 0; index < myfirends.length; index++) {
+//    console.log(myfirends[index]);
+   
+// }
+// //ازاي نتاكد من النوع؟
+// let names=[];
+// for (let index = 0; index < myfirends.length; index++) {
+//    if (typeof myfirends[index] === "string") {
+//     names.push(myfirends[index]);
+// }
+    
+// }
+// console.log(names);
