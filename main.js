@@ -299,3 +299,47 @@ let color=["RED","GREEN","Blue"];
 // }
 //55 video
 //do while
+// let myAdmins = ["Ahmed", "Osama", "Sayed", "Stop", "Samera"];
+// let myEmployees = ["Amgad", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia"];
+// let k=0;
+// while (myAdmins[k]!="Stop") {
+//     k++;
+// }
+// document.writeln(`<div>We Have ${k} Admins</div>`);
+// for (let i = 0; i < myAdmins.length; i++) {
+//    if (myAdmins[i]=="Stop") {
+//      break;
+//    }
+//     document.writeln(`<h3>The Admin for Team${i+1} is ${myAdmins[i]}</h3>`);
+//     document.writeln(`<h1> Team members</h1>`);
+// let num=0;
+// for (let j = 0; j < myEmployees.length; j++) {
+
+//     if (myEmployees[j].startsWith(myAdmins[i][0])) {
+//         num++;
+//         document.writeln(`<h2>-${num} ${myEmployees[j]}</h2>`);
+//     }
+// }
+    
+// }
+//functions
+// function SayHello(userNAme){
+
+//     return `hello ${userNAme}`;
+    
+// }
+// let result=SayHello("Amir");
+// console.log(result);
+
+// function generateyears(start,end,exclude){
+
+// for (let index = start; index <= end; index++) {
+//     if (index==exclude) {
+//         continue;
+//     }
+//     console.log(index);
+    
+    
+// }
+// }
+// generateyears(1967,1977,1973);
