@@ -343,3 +343,136 @@ let color=["RED","GREEN","Blue"];
 // }
 // }
 // generateyears(1967,1977,1973);
+//problems
+// function distinct() {
+//     let size = Number(prompt());
+//     let arr = [];
+//     for (let index = 0; index < size; index++) {
+//         arr.push(Number(prompt()));
+//     }
+//   arr.sort();
+//   let count=1;
+//   for (let i = 1; i < arr.length; i++) {
+//     if (arr[i]==arr[i-1]) {
+//         continue;
+//     }
+//     else{
+//         count++;
+//     }
+    
+//   }
+//   console.log(count);
+  
+// }
+// distinct();
+//M problem
+// 
+//default
+
+// function SayHello(userNAme,age="Unkown"){
+//   // if (age=== undefined) {
+//   //   age="unkown";
+//   // }
+
+//     return `hello ${userNAme}`;
+    
+// }
+//rest parameters
+//undetermined number of parametse ...
+// function calc(...numbers){
+//   console.log(Array.isArray(numbers));
+//   let result=0;
+//   for (let i = 0; i < numbers.length; i++) {
+   
+//     result+=numbers[i];
+//   }
+   
+// }
+// calc(20,22,30,40,50,51);
+//video 62
+function left(num,ch) {
+      let i=1;
+  let count=0;
+
+  while (count<num) {
+
+    console.log(ch.repeat(i));
+    i+=2;
+    count++;
+  }
+}
+function right(num,ch) {
+    let i=1;
+  let count=0;
+
+  while (count<num) {
+
+    console.log(" ".repeat(num-count),ch.repeat(i));
+    i+=1;
+    count++;
+  }
+}
+function up(num,ch) {
+  let i=1;
+  let count=0;
+
+  while (count<num) {
+
+    console.log(" ".repeat(num-count),ch.repeat(i));
+    i+=2;
+    count++;
+  }
+}
+function down(num,ch){
+let count=0;
+let i=1;
+let j=1;
+while (count<num) {
+      console.log(" ".repeat(i),ch.repeat((num*2)-j));
+    i+=1;
+    count++;
+    j+=2;
+  
+}
+}
+function PyramidGenerator(num,dir,ch) {
+  if (num==1) {
+    console.log(ch);
+    
+  }
+  else{
+    if (dir==="right") {
+      right(num,ch);
+    }
+    else if (dir==="left") {
+            left(num,ch);
+
+    } 
+      else if (dir==="down") {
+            down(num,ch);
+
+    } 
+    else {
+      up(num,ch);
+    }
+
+
+  }
+}
+let count,direction,sympol;
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question("Enter the number of rows: ", (count) => {
+  rl.question("Enter the direction: ", (direction) => {
+    rl.question("Enter the character: ", (symbol) => {
+      PyramidGenerator(Number(count), direction, symbol);
+      rl.close();
+    });
+  });
+});
+
