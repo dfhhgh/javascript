@@ -390,89 +390,119 @@ let color=["RED","GREEN","Blue"];
 // }
 // calc(20,22,30,40,50,51);
 //video 62
-function left(num,ch) {
-      let i=1;
-  let count=0;
+// function left(num,ch) {
+//       let i=1;
+//   let count=0;
 
-  while (count<num) {
+//   while (count<num) {
 
-    console.log(ch.repeat(i));
-    i+=2;
-    count++;
-  }
-}
-function right(num,ch) {
-    let i=1;
-  let count=0;
+//     console.log(ch.repeat(i));
+//     i+=2;
+//     count++;
+//   }
+// }
+// function right(num,ch) {
+//     let i=1;
+//   let count=0;
 
-  while (count<num) {
+//   while (count<num) {
 
-    console.log(" ".repeat(num-count),ch.repeat(i));
-    i+=1;
-    count++;
-  }
-}
-function up(num,ch) {
-  let i=1;
-  let count=0;
+//     console.log(" ".repeat(num-count),ch.repeat(i));
+//     i+=1;
+//     count++;
+//   }
+// }
+// function up(num,ch) {
+//   let i=1;
+//   let count=0;
 
-  while (count<num) {
+//   while (count<num) {
 
-    console.log(" ".repeat(num-count),ch.repeat(i));
-    i+=2;
-    count++;
-  }
-}
-function down(num,ch){
-let count=0;
-let i=1;
-let j=1;
-while (count<num) {
-      console.log(" ".repeat(i),ch.repeat((num*2)-j));
-    i+=1;
-    count++;
-    j+=2;
+//     console.log(" ".repeat(num-count),ch.repeat(i));
+//     i+=2;
+//     count++;
+//   }
+// }
+// function down(num,ch){
+// let count=0;
+// let i=1;
+// let j=1;
+// while (count<num) {
+//       console.log(" ".repeat(i),ch.repeat((num*2)-j));
+//     i+=1;
+//     count++;
+//     j+=2;
   
-}
-}
-function PyramidGenerator(num,dir,ch) {
-  if (num==1) {
-    console.log(ch);
+// }
+// }
+// function PyramidGenerator(num,dir,ch) {
+//   if (num==1) {
+//     console.log(ch);
     
-  }
-  else{
-    if (dir==="right") {
-      right(num,ch);
-    }
-    else if (dir==="left") {
-            left(num,ch);
+//   }
+//   else{
+//     if (dir==="right") {
+//       right(num,ch);
+//     }
+//     else if (dir==="left") {
+//             left(num,ch);
 
-    } 
-      else if (dir==="down") {
-            down(num,ch);
+//     } 
+//       else if (dir==="down") {
+//             down(num,ch);
 
-    } 
-    else {
-      up(num,ch);
-    }
+//     } 
+//     else {
+//       up(num,ch);
+//     }
 
 
-  }
-}
-let count,direction,sympol;
-const readline = require("readline");
+//   }
+// }
+// let count,direction,sympol;
+// const readline = require("readline");
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
 
-rl.question("Enter the number of rows: ", (count) => {
-  rl.question("Enter the direction: ", (direction) => {
-    rl.question("Enter the character: ", (symbol) => {
-      PyramidGenerator(Number(count), direction, symbol);
-      rl.close();
-    });
-  });
-});
+// rl.question("Enter the number of rows: ", (count) => {
+//   rl.question("Enter the direction: ", (direction) => {
+//     rl.question("Enter the character: ", (symbol) => {
+//       PyramidGenerator(Number(count), direction, symbol);
+//       rl.close();
+//     });
+//   });
+// });
+//random video 65
+// function showDetails(name,age,situation) {
+//    if (typeof name==="string" && typeof age==="number" && typeof situation==="boolean") {
+//     console.log(`Hello ${name},your age is${age}, ${situation?"you are available for hire":"you are not available for hire"}`);
+//    }
 
+//      else if (typeof name==="boolean" && typeof age==="number" && typeof situation==="string") {
+//     console.log(`Hello ${situation},your age is${age}, ${name?"you are available for hire":"you are not available for hire"}`);
+//    }
+//        else if (typeof name==="boolean" && typeof age==="string" && typeof situation==="number") {
+//     console.log(`Hello ${age},your age is${situation}, ${name?"you are available for hire":"you are not available for hire"}`);
+//    }
+//      if (typeof name==="number" && typeof age==="boolean" && typeof situation==="string") {
+//     console.log(`Hello ${situation},your age is${name}, ${age?"you are available for hire":"you are not available for hire"}`);
+//    }
+
+//      else if (typeof name==="string" && typeof age==="boolean" && typeof situation==="number") {
+//     console.log(`Hello ${name},your age is${situation}, ${age?"you are available for hire":"you are not available for hire"}`);
+//    }
+//    else if (typeof name==="number" && typeof age==="string" && typeof situation==="boolean") {
+//     console.log(`Hello ${age},your age is${name}, ${situation?"you are available for hire":"you are not available for hire"}`);
+//    }
+   
+
+   
+// }
+
+// showDetails(true,39,"AHmed");
+// showDetails(false,"Amir",22);
+// showDetails("Fares",true,25);
+// showDetails(25,"Adam",false);
