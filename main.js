@@ -506,3 +506,40 @@ let color=["RED","GREEN","Blue"];
 // showDetails(false,"Amir",22);
 // showDetails("Fares",true,25);
 // showDetails(25,"Adam",false);
+//video 65 nested return
+// function sayMessage(fname,lname){
+// let mesag=`Hello`;
+// function concatmsg(){
+//   mesag=`${mesag} ${fname} ${lname}`;
+// }
+// concatmsg();
+// return mesag;
+// }
+// console.log(sayMessage("Amir","Omran"));
+//ex 2
+// function sayMessage(fname,lname){
+// let mesag=`Hello`;
+// function concatmsg(){
+//   function getFullName(){
+
+//     return `${fname} ${lname}`;
+//   }
+// return  `${mesag} ${getFullName()} `;
+// }
+
+// return concatmsg();
+// }
+// console.log(sayMessage("Amir","Omran"));
+//video 66 arrow function
+// let print =(num)=>num;
+// console.log(print(100));
+// let print= (num1,num2)=>num2+num1;
+// console.log(print(100,33));
+//scope video 67
+// let a=2;
+// var b=1;
+// console.log(`from global${a}`);
+// console.log(`from global${b}`);
+//68 
+//var مش بتنفع مع الscope
+//let بتنفع
