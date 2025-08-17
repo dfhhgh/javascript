@@ -543,3 +543,17 @@ let color=["RED","GREEN","Blue"];
 //68 
 //var مش بتنفع مع الscope
 //let بتنفع
+//lexical video 69
+// function parent() {
+//     let a=10;
+//     function child() {
+//         console.log(a);
+//         function grChild(params) {
+//             console.log(`"from Grandchild ${}`);
+            
+//         }
+//         grChild();
+//     }
+//     child();
+// }
+// parent();
