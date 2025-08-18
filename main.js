@@ -649,3 +649,35 @@ console.log(newArray);
 //     return ele*ele
 // }).join("");
 // console.log(nixed);
+// //video 75 reduce
+// let nums= [10, 20, 15, 30];
+
+// let add=nums.reduce(function (acc, current, index ,arr ) {
+//     console.log(`acc => ${acc}`);
+//     console.log(`current => ${current}`);
+//     console.log(`current elemnt index => ${index}`);
+    
+    
+//     return acc+current;
+// }, 5)
+// console.log(add);
+//acc هو اول قيمة تبدا بيها
+//10 +20=30,30+15=45,45+30=75
+//current العنصر اللي شغل عليه
+//لو حطيت intital value هتبقي للacc
+//video  76
+// let theBiggest = ["Bla", "Propaganda", "Other", "AAA", "Battery", "Test","Propaganda_two"];
+// let big=theBiggest.reduce(function (acc, current, index ,arr ) {
+//     console.log(`acc => ${acc}`);
+//     console.log(`current => ${current}`);
+    
+//     return acc.length<current.length?current:acc;
+// })
+// console.log(big);
+// let removeChars = ["E", "@", "@", "L", "Z", "@", "@", "E", "R", "@", "0"];
+// let remove=removeChars.filter(function (ele) {
+//     return ele!="@";
+// }).reduce(function (acc,current,index,arr) {
+//     return acc+=current;
+// })
+// console.log(remove);
