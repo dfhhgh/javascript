@@ -610,3 +610,42 @@ console.log(newArray);
 //     ""
 // }).join("");
 // console.log(ign);
+//filter video 73
+// let friends = ["Ahmed", "Sameh", "Sayed", "Asmaa", "Amgad", "Israa"];
+// // Get Even Numbers Only
+
+// let numbers = [11, 20, 2, 5, 17,10];
+// // let addmap=numbers.map(function ad(ele) {
+// //     return ele +ele;
+// // });
+// // console.log(addmap);
+// // let addfilter=numbers.filter(function ad(ele) {
+// //     return ele +ele;
+// // });
+// // console.log(addfilter);
+// //متغيرتش حاجة عشان الfilter بيرجع العنصر لو جاب true فدي فايدته
+// // let filteredfriends=friends.filter(function (ele) {
+// //     return ele.startsWith("A");//اختبار
+// // });
+// // console.log(filteredfriends);
+// // let evenumbers=numbers.filter(function (ele) {
+// //     return ele%2==0
+// // });
+// // console.log(evenumbers);
+// //video 74
+// let sentence = "I Love Foood Code Too Playing Much";
+
+// let small=sentence.split(" ").filter(function (ele) {
+//     return ele.length <=4;
+// }).join(" ");
+// console.log(small);
+
+// //map بيرجع output
+// //filter بيشيل عناصر
+// let mix = "A13BS2ZX";
+// let nixed=mix.split("").filter(function (ele) {
+//     return !isNaN(parseInt(ele));
+// }).map(function (ele) {
+//     return ele*ele
+// }).join("");
+// console.log(nixed);
