@@ -557,3 +557,56 @@ let color=["RED","GREEN","Blue"];
 //     child();
 // }
 // parent();
+//map video 71
+//function creates new array
+let myNums=[1,2,3,4,6,7,8];
+let newArray=[];
+for (let i = 0; i < myNums.length; i++) {
+    newArray.push(myNums[i]+myNums[i]);
+    
+}
+console.log(newArray);
+//same idea with map take a function as a parameter
+// let addself=myNums.map(function name(el,index,ar) {
+//     console.log(`current el => ${el}`);
+//     console.log(`current index => ${index}`);
+//     console.log(`this => ${this}`);
+// }, 10);
+// let addself=myNums.map(function name(el,index,ar) {
+//   return el+el;
+// }, 10);
+// console.log(addself);
+///with arrow function
+// let addself=myNums.map((a)=> a+a);
+// console.log(addself);
+//ممكن تضيف function من برة كمان للmap
+// function addition(el) {
+//     return el +el
+// }
+// let addself=myNums.map(addition);
+// console.log(addself);
+// let swappingCases = "elZERo";
+// let invertedNumbers = [1, -10, -20, 15, 100,-30];
+// let ignoreNumbers = "Elz123er40o";
+// let sw=swappingCases.split("").map(function swi(element,index,arr) {
+//     if (element.toLowerCase()!=element) {
+//         return element.toLowerCase();
+//     }
+//     else
+//     {
+//         return element.toUpperCase();
+//     }
+// }).join("");
+// console.log(sw);
+// let inv=invertedNumbers.map(function invert(element,invert,arr) {
+//     return element*-1;
+// });
+// console.log(inv);
+// ign=ignoreNumbers.split("").map(function ignore(element,index,arr) {
+//  if (isNaN(parseInt(element))) {
+//     return element;
+//  }
+//  else 
+//     ""
+// }).join("");
+// console.log(ign);
