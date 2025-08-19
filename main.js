@@ -681,3 +681,30 @@ console.log(newArray);
 //     return acc+=current;
 // })
 // console.log(remove);
+//foreach مش بتنشأ array جديدة
+//نستعتملها لو في بيانات مش عايزيين نغير فيها
+// let allis=document.querySelectorAll("ul li");
+// let alldivs=document.querySelectorAll(".content div");
+// console.log(allis);
+// allis.forEach(function (ele) {
+//     ele.onclick=function () {
+//         allis.forEach(function (ele) {
+//             ele.classList.remove("active" )
+//         })
+//     this.classList.add("active");
+//         alldivs.forEach(function (ele) {
+//             ele.style.display = 'none';
+//         })
+//     };
+    
+// });
+// let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+// let solution = " ????? ";
+// console.log(solution); // Elzero Web-School
+// solution=myString.split(",").filter(function (ele,index,arr) {
+//     return isNaN(parseInt(ele))&&ele!="_" ;
+// }).reduce(function (acc,current,index,arr) {
+//     return `${acc}${current}`
+// }).slice(1,-1);
+// console.log(solution);
+//challenge
