@@ -767,3 +767,68 @@ console.log(newArray);
 // console.log(user);
 
 // console.log(user.sayHello());
+//this keyword
+//  myVar= 12;//هتتعرف بvar
+// console.log(this);
+
+// console.log(this.myVar);
+// function sayHello() {
+//    return this;
+    
+// }
+// sayHello();
+// console.log(sayHello()=== this);
+// //ازاي تعمل button
+// document.getElementById("c1").onclick = function () {
+//     console.log(this);
+    
+// };
+// //this هنا عائدة علي الbutton
+// let user={
+//     age: 33,
+//     ageInDays: function () {
+//        return this.age * 365;//تعود علي الobject اللي نادي الmethod
+//     },
+// }
+// console.log(user.ageInDays());
+//video 83
+// let user={
+//     age: 33,
+//     ageInDays: function () {
+//        return this.age * 365;//تعود علي الobject اللي نادي الmethod
+//     },
+// }
+// console.log(user.ageInDays());
+// console.log(user.age);
+
+// let obj=Object.create({});
+// obj.a=100;
+// console.log(obj);
+// let Copyobj=Object.create(user);
+// console.log(Copyobj);
+// console.log(Copyobj.age);
+
+// console.log(Copyobj.ageInDays());
+// Copyobj.age=66;
+// console.log(Copyobj.age);
+// console.log(Copyobj.ageInDays());//عشان الuser age
+// //حلها انك تستعمل this
+//video 85 create object with assign method
+// let obj1 = { 
+// prop1: 1,
+// meth1: function () {
+// return this.prop1;
+// },
+// };
+// let obj2 = {
+// prop2: 2,
+// meth2: function () {
+// return this.prop2;
+// },
+// };
+// let targetObject = {
+// prop1: 1,
+// prop3: 3,
+// };
+// let finalObj=Object.assign(targetObject,obj1);
+// console.log(finalObj);
