@@ -1,5 +1,7 @@
 //ctrl + /
 // window.alert("hello");
+
+
 // document.writeln("<h1> hello</h1>");
 console.log("hello");
 //styling
@@ -708,3 +710,60 @@ console.log(newArray);
 // }).slice(1,-1);
 // console.log(solution);
 //challenge
+// let user={
+//     //properties
+//     theName: "AMir",
+//     theAge: 48,
+//     //methods
+//     sayHello: function () {
+//         console.log("Hello");
+//     }
+// };
+// console.log(user.theName);
+// console.log(user.theAge);
+
+//object video 80
+// let user={
+//     Name: "Amir",
+//     Country: "German",
+// };
+// video 81 nested object
+// let user={
+//     name: "Amigo",
+//     age: 48,
+//     skills: ["HTML","CSS","JS"],
+//      available: false,
+//      addresses: {
+//         KSA:"Ryad",
+//         Egypt: {
+//             one: "Cairo",
+//             two: "Giza",
+//         }
+//      },
+//     checkAvailability: function () {
+//             if (this.available) {
+//                 return "free for work";
+//             }
+//             else
+//             {
+//                 return "not free";
+//             }
+
+//                 }
+
+// }
+// console.log(user.age);
+// console.log(user.skills);
+// console.log(user.skills.join("|"));
+// console.log(user.addresses.Egypt.one);
+//video 82
+// let user=new Object();
+// console.log(user);
+// user.age=36;
+// user["country"]="egypt";
+// user.sayHello= function () {
+//     return "Hello";
+// }
+// console.log(user);
+
+// console.log(user.sayHello());
