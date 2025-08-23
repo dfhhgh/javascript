@@ -832,3 +832,25 @@ console.log(newArray);
 // };
 // let finalObj=Object.assign(targetObject,obj1);
 // console.log(finalObj);
+//DOM
+//find element by id
+// let myIdE= document.getElementById("my-div");
+// console.log(myIdE);
+// let myTagelements=document.getElementsByTagName("p") ;
+
+// //هيجيب اكتر من عنصر
+// //عشان توصل لعنصر معين تستعمل الindexing
+// console.log(myTagelements[1]);
+// myTagelements[1].innerHTML="TEST";
+// console.log(myTagelements[1]);
+// let myClassElement=document.getElementsByClassName("my-span");//class name not unique 
+// console.log(myClassElement);
+// //queryselector تقدر تستعمل معاها اي حاجة
+// let myQueryElement=document.querySelector(".special");
+// console.log(myQueryElement);
+// let myQueryElementall=document.querySelectorAll(".my-span");
+// console.log(myQueryElementall);
+// console.log(document.title);
+// console.log(document.forms[0].one.value);
+// console.log(document.links[0].href);
+//video 87 get and set
