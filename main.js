@@ -854,3 +854,101 @@ console.log(newArray);
 // console.log(document.forms[0].one.value);
 // console.log(document.links[0].href);
 //video 87 get and set
+// let myElement=document.querySelector(".js");
+// console.log(myElement.innerHTML);
+// console.log(myElement.textContent);
+// //editing
+// myElement.innerHTML="text from <span>Main.js</span> File";
+// myElement.textContent="text from <span>Main.js</span> File";//يهتعامل معاها كمحتوي نصي بس حتي الHTML
+// //images
+// document.images[0].src="https://www.youtube.com/watch?v=9j9XvUnWndI&list=PLDoPjvoNmBAx3kiplQR_oeDqLDBUDYwVv&index=88"
+// document.images[0].alt="alternative";
+// document.images[0].title="picture";
+// document.images[0].id="pic";
+// document.images[0].className="Pictures";
+// let myLink=document.querySelector(".Link");
+// console.log(myLink.getAttribute("class"));
+// console.log(myLink.getAttribute("href"));
+// myLink.setAttribute("href","https://x.com");
+// myLink.setAttribute("title","X");
+// console.log(document.getElementsByTagName("p")[0].attributes);
+// let myP=document.getElementsByTagName("p")[0];
+// if (myP.hasAttribute("data-src")) { //لو في attribute بالاسم ده هيديني true
+//      if (myP.getAttribute("data-src")==="") {
+//         myP.removeAttribute("data-src");
+//     }
+//     else{
+//         myP.setAttribute("data-src","new Value")
+//     }
+
+   
+// }else{
+//     console.log("mot found");
+    
+// }
+// //لو حطيت hasattributes قاضية هتديك true
+// if (myP.hasAttribute()) {
+//     console.log("Has");
+    
+// }
+// if (document.getElementsByTagName("div")[0].hasAttribute()) {
+//     console.log("has");
+    
+// }
+// else
+//     console.log("not has");
+//create elements
+// let myElement=document.createElement("div");
+//  console.log(myElement);
+//  myElement.className="product";
+//  console.log(myElement);
+//  myElement.id="PR";
+//  console.log(myElement);
+//  let myAtt=document.createAttribute("data-src");
+//  myElement.setAttributeNode(myAtt);
+//  myElement.setAttribute("data-test","testing")
+ 
+//     console.log(myElement);
+//     let mytext=document.createTextNode("product one");
+//     myElement.appendChild(mytext);
+//     console.log(myElement);
+//     document.body.appendChild(myElement );
+//    let myComment=document.createComment("this is Div") ;
+//    myElement.appendChild(myComment);
+//practice 
+// let Elm=document.createElement("div");
+// Elm.className="product";
+// console.log(Elm);
+// let myElm2=document.createElement("h3");
+// myElm2.className="Product TV";
+
+// let myELm3=document.createElement("p");
+// myELm3.className="tv specs";
+// let mytex1=document.createTextNode("TV");
+
+// let myTex2=document.createTextNode("1234*343 px");
+// myELm3.appendChild(myTex2);
+// myElm2.appendChild(mytex1);
+// Elm.appendChild(myElm2);
+// Elm.appendChild(myELm3);
+//  document.body.appendChild(Elm);
+// for (let i = 1; i <=100; i++) {
+//    let Elm=document.createElement("div");
+// Elm.className=`product ${i}`;
+// console.log(Elm);
+// let myElm2=document.createElement("h3");
+// myElm2.className="Product TV";
+
+// let myELm3=document.createElement("p");
+// myELm3.className="tv specs";
+// let mytex1=document.createTextNode( `TV${i}`);
+
+// let myTex2=document.createTextNode("1234*343 px");
+// myELm3.appendChild(myTex2);
+// myElm2.appendChild(mytex1);
+// Elm.appendChild(myElm2);
+// Elm.appendChild(myELm3);
+//  document.body.appendChild(Elm);
+    
+// }
+//Deal with Children
