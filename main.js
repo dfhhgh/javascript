@@ -952,3 +952,12 @@ console.log(newArray);
     
 // }
 //Deal with Children
+// let elm=document.querySelector("div");
+// console.log(elm);
+// console.log(elm.children);//بيرجع العناصر الموجودة جواه
+// console.log(elm.childNodes);//بيحسب المسافات من ضمنtext
+// console.log(elm.childNodes[0]);
+// console.log(elm.firstChild);
+// console.log(elm.firstElementChild);
+// console.log(elm.lastChild);
+//events++++++++++=================================================================
