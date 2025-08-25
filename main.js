@@ -961,3 +961,16 @@ console.log(newArray);
 // console.log(elm.firstElementChild);
 // console.log(elm.lastChild);
 //events++++++++++=================================================================
+// let mybutton=document.getElementById("btn");
+//  mybutton.onclick= function () {
+//     for (let i = 0; i < 10; i++) {
+//         console.log(2**i);
+        
+        
+//     }
+//  }
+//  window.onscroll=function () {
+//     console.log("scroll");
+    
+//  }
+//  //focus لما ادوس علي حقل للكتابة
