@@ -974,3 +974,33 @@ console.log(newArray);
     
 //  }
 //  //focus لما ادوس علي حقل للكتابة
+//ازاي نفعل القيود دي
+// let userInput=document.querySelector("[name='username']");
+// let ageInput=document.querySelector("[name='age']");
+// document.forms[0].onsubmit=function (ev) {
+//     let uservalid=false;
+//     let agevalid=false;
+// console.log(userInput.value);
+// console.log(userInput.value.length);
+// if (userInput.value!== "" && userInput.value.length<=10) {
+//     uservalid=true;
+// }
+// if (!isNaN(parseInt(ageInput.value)) && parseInt(ageInput.value)>=21) {
+//     agevalid=true;
+//     console.log("valid age");
+    
+// }   //validations
+
+//     if (uservalid===false||agevalid===false) {
+//         ev.preventDefault();
+//     }
+// }
+// document.links[0].onclick=function (event) {
+//     console.log(event);
+//     event.preventDefault();
+// }
+//classl list
+let ele=document.getElementById("my-div");
+console.log(ele.classList);
+console.log(typeof ele.classList);
+//لما تسيب مسافات انتكدة كل شوية تعمل class جديد
